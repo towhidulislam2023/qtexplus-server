@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "doctorname": "Dr. John Smith",
+    "speciality": "Cardiology",
+    "degree": "MD, FACC",
+    "description": "Dr. John Smith is a board-certified cardiologist with over 20 years of experience.",
+    "visitfee": "$250",
+    "time": "9:00 AM - 5:00 PM",
+    "image": "https://img.freepik.com/free-photo/doctor-with-his-arms-crossed-white-background_1368-5790.jpg?w=740&t=st=1684032020~exp=1684032620~hmac=1135cf6d2b24ffd299895647274788f4e12e883e68b86f143de4b20a93c54307"
+  },
+  {
+    "id": 2,
+    "doctorname": "Dr. Jane Doe",
+    "speciality": "Pediatrics",
+    "degree": "MD",
+    "description": "Dr. Jane Doe is a pediatrician with a special interest in child development.",
+    "visitfee": "$200",
+    "time": "10:00 AM - 6:00 PM",
+    "image": "https://img.freepik.com/free-photo/doctor-standing-with-folder-stethoscope_1291-16.jpg?1&w=900&t=st=1684032166~exp=1684032766~hmac=039152946ab06b22694a4b542051c410cd277b3d8c2ab99168da2ab224f728f5"
+  },
+  {
+    "id": 3,
+    "doctorname": "Dr. William Lee",
+    "speciality": "Dermatology",
+    "degree": "MD",
+    "description": "Dr. William Lee is a dermatologist with expertise in skin cancer diagnosis and treatment.",
+    "visitfee": "$300",
+    "time": "8:00 AM - 4:00 PM",
+    "image": "https://img.freepik.com/free-photo/portrait-cheerful-male-doctor-dressed-uniform_171337-1531.jpg?w=900&t=st=1684032317~exp=1684032917~hmac=b0fa9c61da596d9f5fc8e446326b9b2ebe0433d216f45a8466bc8ee0aefd73ee"
+  },
+  {
+    "id": 4,
+    "doctorname": "Dr. Maria Rodriguez",
+    "speciality": "Family Medicine",
+    "degree": "MD",
+    "description": "Dr. Maria Rodriguez is a family medicine practitioner with a focus on preventative care.",
+    "visitfee": "$150",
+    "time": "9:00 AM - 5:00 PM",
+    "image": "https://img.freepik.com/free-photo/expressive-young-woman-posing-studio_176474-66963.jpg?w=900&t=st=1684032366~exp=1684032966~hmac=f8efd6ead62ee117ccc216724d41f03fca6684f04c54d13fcbe45b8fd39a7647"
+  },
+  {
+    "id": 5,
+    "doctorname": "Dr. David Kim",
+    "speciality": "Orthopedics",
+    "degree": "MD",
+    "description": "Dr. David Kim is an orthopedic surgeon with expertise in joint replacement surgery.",
+    "visitfee": "$350",
+    "time": "7:00 AM - 3:00 PM",
+    "image": "https://img.freepik.com/free-photo/portrait-smiling-young-man-doctor-with-stethoscope-standing-with-arms-folded_171337-15538.jpg?w=900&t=st=1684032803~exp=1684033403~hmac=ffc4f5c2e3466a6a09dfac5e2c1568373504fb718430f6038fbeef9b332d4656"
+  },
+  {
+    "id": 6,
+    "doctorname": "Dr. Emily Jones",
+    "speciality": "Gynecology",
+    "degree": "MD",
+    "description": "Dr. Emily Jones is a gynecologist with experience in both obstetrics and gynecology.",
+    "visitfee": "$250",
+    "time": "8:00 AM - 4:00 PM",
+    "image": "https://img.freepik.com/free-photo/smiling-young-female-doctor-wearing-medical-robe-stethoscope-standing-desk-with-medical-tools-putting-hands-waist-isolated-pink-wall_141793-59668.jpg?w=740&t=st=1684043784~exp=1684044384~hmac=dbb6626d0559a0802c2da36467df391939b6284dce6e026211f3259fe601af05"
+  },
+  {
+    "id": 7,
+    "doctorname": "Dr. Michael Nguyen",
+    "speciality": "Ophthalmology",
+    "degree": "MD",
+    "description": "Dr. Michael Nguyen is an ophthalmologist with expertise in LASIK surgery.",
+    "visitfee": "$400",
+    "time": "9:00 AM - 5:00 PM",
+    "image": "https://img.freepik.com/free-photo/elderly-doctor-thinking-office_23-2147896136.jpg?t=st=1684032344~exp=1684032944~hmac=c7e0a0f0feaf53506eb1f8af33d2caf888376013378715eff8f22ed69b19563d"
+  },
+  {
+    "id": 8,
+    "doctorname": "Dr. Sarah Patel",
+    "speciality": "Neurology",
+    "degree": "MD, PhD",
+    "description": "Dr. Sarah Patel is a neurologist with expertise in treating neurological disorders such as Parkinson's disease and multiple sclerosis.",
+    "visitfee": "$500",
+    "time": "10:00 AM - 6:00 PM",
+    "image": "https://img.freepik.com/free-photo/attractive-female-doctor-standing-with-documents-hospital_1303-20688.jpg?w=900&t=st=1684032433~exp=1684033033~hmac=b7a7ac9d5153fc93c295f5b51be421adc9e1f06526a97a146718cef049dbc12c"
+  }
+]
