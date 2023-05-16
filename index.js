@@ -27,20 +27,20 @@ const client = new MongoClient(uri, {
         deprecationErrors: true,
     }
 });
-const verifyJWt=(req,res,next)=>{
+const verifyJWt = (req, res, next) => {
     console.log("hitt");
     const authorization = req.headers.authorization
     if (!authorization) {
-        res.status(401).send({ error: true, message: "Unauthorized access" })   
-        return     
+        res.status(401).send({ error: true, message: "Unauthorized access" })
+        return
     }
     const token = authorization.split(" ")[1]
     console.log(token);
-    jwt.verify(token, process.env.ACESS_TOKEN_SECRET,(error,decoded)=>{
+    jwt.verify(token, process.env.ACESS_TOKEN_SECRET, (error, decoded) => {
         if (error) {
-            res.status(401).send({ error: true, message: "Unauthorized access" }) 
+            res.status(401).send({ error: true, message: "Unauthorized access" })
         }
-        req.decoded=decoded 
+        req.decoded = decoded
         next()
     })
 
@@ -64,7 +64,7 @@ async function run() {
         app.post("/jwt", (req, res) => {
             const user = req.body
             const token = jwt.sign(user, process.env.ACESS_TOKEN_SECRET, { expiresIn: "3h" })
-            res.send({token})
+            res.send({ token })
         })
 
         //get
@@ -97,6 +97,11 @@ async function run() {
         })
 
         app.get("/appiontmentinfo", verifyJWt, async (req, res) => {
+            const decoded = req.decoded
+            if (decoded.email !== req.query?.email){
+                return res.send({error:true,message:"Unauthorize"})
+
+             }
             let query = {}
             if (req.query?.email) {
                 query = { email: req?.query.email }
